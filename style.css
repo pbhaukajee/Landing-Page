@@ -3,10 +3,10 @@
   margin: 0;
 }
 
-.header {
+.container-1 {
   background: #1f2937;
   color: white;
-  height: 550px;
+  min-height: 550px;
 }
 
 .nav {
@@ -38,7 +38,7 @@ a {
   font-size: 18px;
 }
 
-.container-1 {
+.header {
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -82,9 +82,9 @@ button {
   margin-top: 20px;
   cursor: pointer;
 }
-.gallery {
+.container-2 {
   padding: 20px;
-  height: 500px;
+  min-height: 500px;
 }
 
 .random-info {
@@ -94,7 +94,7 @@ button {
   font-weight: 900;
   color: #1f2937;
 }
-.container-2 {
+.gallery {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -110,4 +110,25 @@ button {
 .description {
   margin-top: 10px;
   width: 300px;
+}
+
+.container-3 {
+  background-color: #e5e7eb;
+  min-height: 100px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial {
+  margin: 0 350px 0 350px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.name {
+  align-self: flex-end;
+  margin-right: 350px;
+  font-weight: bold;
 }
