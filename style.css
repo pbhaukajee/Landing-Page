@@ -82,3 +82,32 @@ button {
   margin-top: 20px;
   cursor: pointer;
 }
+.gallery {
+  padding: 20px;
+  height: 500px;
+}
+
+.random-info {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+.container-2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.pictures {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.description {
+  margin-top: 10px;
+  width: 300px;
+}
