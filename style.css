@@ -6,21 +6,23 @@
 .header {
   background: #1f2937;
   color: white;
-  height: 500px;
+  height: 550px;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 100px;
   align-items: center;
   padding: 10px;
 }
 
 .logo {
-  margin-left: 80px;
-  width: 30px;
-  height: auto;
+  margin-left: 50px;
+  font-family: "sans-serif", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: x-large;
 }
 
 ul {
@@ -33,7 +35,7 @@ ul {
 a {
   text-decoration: none;
   color: #e5e7eb;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .container-1 {
@@ -49,31 +51,32 @@ a {
   margin-left: 80px;
 }
 .hero-main {
-  font-size: 28px;
+  font-size: 48px;
   color: #f9faf8;
-  font-weight: 800;
+  font-weight: bolder;
   margin-bottom: 3px;
 }
 .hero-seconday {
   color: #e5e7eb;
-  font-size: x-small;
+  font-size: 18px;
   font-weight: 100;
 }
 
 .img-nepal {
   margin-right: 80px;
   height: auto;
-  width: 300px;
-  border-radius: 30px;
+  width: 400px;
+  border-radius: 15px;
 }
 
 button {
   background-color: #3882f6;
   color: white;
-  border-radius: 8px;
-  padding: 5px;
-  width: 100px;
+  border-radius: 15px;
+  border: 0;
+  padding: 10px;
+  width: 120px;
   font-weight: 800;
   font-size: small;
-  margin-top: 10px;
+  margin-top: 20px;
 }
