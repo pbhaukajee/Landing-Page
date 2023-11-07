@@ -138,12 +138,14 @@ button {
 }
 
 .container-4 {
-  max-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact {
   background-color: #c95107bb;
-  margin: 80px;
+  margin: 60px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
