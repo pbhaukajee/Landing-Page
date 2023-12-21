@@ -1,7 +1,7 @@
 # Landing-Page
 Site: https://pbhaukajee.github.io/Landing-Page/
 
-Travel Nepal
+TRAVEL NEPAL
 
 Image 1: nepal.jpg
 Photographer/Creator: Tim Van Kempen
